@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonColor">#2196F3</color>
+    <color name="grey">#274E4A4A</color>
+    <color name="koyugri">#B5292727</color>
+    <color name="gritonu">#E9292828</color>
+    <color name="mavi">#D51478DA</color>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="kdv oranını giriniz.."
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#000405"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:text="ürünün fiyatı : "
+        android:textSize="18dp"
+        android:textColor="#000405"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="kar oranını giriniz.."
+        android:importantForAutofill="no"
+
+        android:inputType="text"
+        android:textColorHint="#000405"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:text="0"
+        android:textColor="#000405"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="gelir vergi tutarını giriniz.."
+        android:importantForAutofill="no"
+
+        android:inputType="text"
+        android:textColorHint="#000405"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="fiyatı giriniz(₺).."
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#000405"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editbutton_background"
+        android:onClick="hesapla"
+        android:text="HESAPLA"
+        android:textColor="@color/material_dynamic_neutral80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="215dp"
+        android:layout_height="80dp"
+        android:onClick="sayfagecis"
+        android:background="@drawable/editbutton_background"
+        android:text="YURTDIŞI HESAPLAMALARI İÇİN TIKLAYINIZ"
+        android:textColor="@color/material_dynamic_neutral80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
